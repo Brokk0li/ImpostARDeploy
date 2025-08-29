@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link href="/src/style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AR Starter • Three.js + WebXR</title>
+  </head>
+  <body>
+    <div id="ui">
+      <div class="panel">
+        <div id="msg">
+          Tap <strong>Start AR</strong> to launch an immersive AR session.
+        </div>
+        <div class="row">
+          <button id="startAR">Start AR</button>
+          <button id="endAR">End AR</button>
+        </div>
+        <div class="subtle">
+          Requires a WebXR-enabled browser (HTTPS, secure context). On iOS, use
+          Safari 16.4+ with WebXR enabled or WebXR Viewer; on Android, use
+          Chrome.
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
